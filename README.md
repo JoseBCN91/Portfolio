@@ -1,7 +1,7 @@
 # Jose Antonio Peña, PhD in Physics
 
 ## Introduction
-Hi there! I'm Jose Antonio Peña, a physicist with a PhD from the Université Grenoble Alpes. I received my BsC in Nanotechnology from the University of Barcelona. With 5 years of experience as a researcher, I have honed my skills in data analysis using Matlab and Python, as well as utilizing various software and tools such as OriginPro, Mumax3 via Google Cloud, Igor, and ImageJ.
+Hi there! I'm Jose Antonio Peña, a physicist with a PhD from the Université Grenoble Alpes and a BsC in Nanotechnology from the University of Barcelona. With 5 years of experience as a researcher, I have honed my skills in data analysis using Matlab and Python, as well as utilizing various software and tools such as OriginPro, Mumax3 via Google Cloud, Igor, and ImageJ.
 
 ## Projects
 
