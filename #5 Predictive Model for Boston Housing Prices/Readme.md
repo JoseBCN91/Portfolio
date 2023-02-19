@@ -1,3 +1,3 @@
-# Linear regression for the Boston housing dataset
+# 5 Predictive Model for Boston Housing Prices
 
-This repository predicts the housing price of a dataset about the housing of Boston. Different regressions models are used, from which, the one with best performance is chosen. The chosen model, the GradientBoostingRegressor, is optimized using a cross validation approach. 
+We study the housing price dataset of Boston. An exploratory data analysis is performed, and a linear regression model is applied in order to predict the housing price depending on different features. 
