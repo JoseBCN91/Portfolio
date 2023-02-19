@@ -1,3 +1,3 @@
-# Linear regression for the Boston housing dataset
+#6 Multi-Class Classification on Wine Dataset
 
-This repository predicts the housing price of a dataset about the housing of Boston. Different regressions models are used, from which, the one with best performance is chosen. The chosen model, the GradientBoostingRegressor, is optimized using a cross validation approach. 
+We study a dataset containing information about wines, which are classified in different classes. We apply a classification machine learning approach to determine the class of the wine as function of different features of the wine. 
