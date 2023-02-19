@@ -1,3 +1,3 @@
-# Base-de-dades
+# 2 Exploratory Data Analysis of the Barcelona Housing Dataset
 
-This work aims to perform a basic exploratory analysis of the movies database. This database contains information about different movies, as well as the persons, with their name and role, involved in each movie. The objective of this work is to explore the different table, as well as to apply some basic filters to extract useful information such as the eldest person, or the number of movies per genre. Finally, the database is modified either removing some useless data, or modifying some specific data. 
+In this work, an exploratory analysis of the Barcelona Housing dataset is performed. Different features such as the price per square meter for different districts, or neighborhoods, as well as the average  price distribution are explored. 
