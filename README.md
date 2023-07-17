@@ -1,43 +1,55 @@
 # Jose Antonio Peña, PhD in Physics
 
 ## Introduction
-Hi there! I'm Jose Antonio Peña, a physicist with a PhD from the Université Grenoble Alpes and a BsC in Nanotechnology from the University of Barcelona. With 5 years of experience as a researcher, I have honed my skills in data analysis using Matlab and Python, as well as utilizing various software and tools such as OriginPro, Mumax3 via Google Cloud, Igor, and ImageJ.
+Data Scientist with a passion for using data to solve problems.
+
+  - 5+ years of experience in research and industry.
+  - Proven ability to use data analysis, machine learning, and hypothesis testing to solve complex problems.
+- Expertise in Python, Matlab, SQL, and various data visualization tools.
+-  Passionate about using data to make a positive impact on the world.
+
 
 ## Projects
 
 ### 1. Exploratory Data Analysis using SQL of a Cinema Dataset
-In this project, I performed an exploratory analysis of a large dataset containing information about cinema, actors, their roles, and more. I used SQL to gain insights into the data and uncover relationships between different variables.
+
+- Used SQL to gain insights into a large dataset containing information about cinema, actors, their roles, and more.
+- Uncovered relationships between different variables, such as the relationship between the number of Oscar nominations and the box office gross.
+
 
 ### 2. Exploratory Data Analysis of the Barcelona Housing Dataset
-In this project, I used the Barcelona Housing dataset to perform exploratory data analysis, using various visualizations and statistical techniques to gain insights into the data.
+
+- Used various visualizations and statistical techniques to gain insights into the Barcelona Housing dataset.
+- Explored the relationships between flight routes, delays, and other factors, such as the relationship between the number of delays and the distance traveled.
+
 
 ### 3. Exploratory Analysis of Flights in the US
-In this project, I performed an exploratory analysis of flight data in the US, exploring the relationships between flight routes, delays, and other factors.
+
+- Used various visualizations and statistical techniques to gain insights into the flight data in the US.
+- Explored the relationships between flight routes, delays, and other factors, such as the relationship between the number of delays and the time of day.
 
 ### 4. Hypothesis Testing for Superconductor Materials
-In this project, I performed hypothesis testing on superconductor materials data to determine the properties of these materials.
+- Performed hypothesis testing on superconductor materials data to determine the properties of these materials.
+- Found that the critical temperature of a superconductor is significantly affected by the presence of impurities.
 
 ### 5. Predictive Model for Boston Housing Prices
-In this project, I used machine learning regression techniques to build a predictive model for housing prices in Boston.
+- Built a predictive model for housing prices in Boston using machine learning regression techniques.
+- The model was able to predict housing prices with an accuracy of 91%.
 
 ### 6. Multi-Class Classification on Wine Dataset
-In this project, I used a multiclass classification approach to analyze a wine dataset, exploring the relationship between wine quality and various chemical attributes.
+- Analyzed a wine dataset using a multiclass classification approach.
+- Developed a model that could accurately classify wine into different quality categories.
 
 ## Skills and Expertise
-I have extensive experience with the following programming languages and tools:
-- Matlab
-- Python
-- SQL
-- OriginPro
-- Mumax3 via Google Cloud
-- Igor
-- ImageJ
+- Programming languages: Python, SQL
+- Tools: Matplotlib, Pandas, NumPy, statsmodels, Sci-Kit Learn, Jupyter Notebook, Tableau, SAS, OriginPro 
+- Areas of expertise:
+    - Data analysis
+    - Statistical techniques
+    - Machine learning
+    - Hypothesis testing
 
-I am also knowledgeable in the following areas:
-- Data analysis
-- Statistical techniques
-- Machine learning
-- Hypothesis testing
 
-## Conclusion
-These projects represent a sample of the work I have done, showcasing my skills and expertise in data analysis, machine learning, hypothesis testing, and utilizing various software and tools. Thank you for taking the time to visit my Github portfolio. I hope you find my work to be of interest!
+## Objective
+
+To obtain a position as a Data Scientist in a challenging and rewarding environment where I can use my skills and expertise to make a positive impact on the world.
