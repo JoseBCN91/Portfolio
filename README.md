@@ -3,7 +3,7 @@
 ## Introduction
 Data Scientist with a passion for using data to solve problems.
 
-  - 5+ years of experience in research and industry.
+  - 7+ years of experience in research and industry.
   - Proven ability to use data analysis, machine learning, and hypothesis testing to solve complex problems.
 - Expertise in Python, Matlab, SQL, and various data visualization tools.
 -  Passionate about using data to make a positive impact on the world.
@@ -36,20 +36,12 @@ Data Scientist with a passion for using data to solve problems.
 - Built a predictive model for housing prices in Boston using machine learning regression techniques.
 - The model was able to predict housing prices with an accuracy of 91%.
 
-### 6. Multi-Class Classification on Wine Dataset
-- Analyzed a wine dataset using a multiclass classification approach.
-- Developed a model that could accurately classify wine into different quality categories.
 
 ## Skills and Expertise
 - Programming languages: Python, SQL
-- Tools: Matplotlib, Pandas, NumPy, statsmodels, Sci-Kit Learn, Jupyter Notebook, Tableau, SAS, OriginPro 
 - Areas of expertise:
     - Data analysis
     - Statistical techniques
     - Machine learning
     - Hypothesis testing
 
-
-## Objective
-
-To obtain a position as a Data Scientist in a challenging and rewarding environment where I can use my skills and expertise to make a positive impact on the world.
