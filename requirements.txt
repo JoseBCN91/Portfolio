@@ -1,0 +1,3 @@
+# Deprecated: use pyproject.toml with uv
+# Install dependencies by running:
+#   uv sync

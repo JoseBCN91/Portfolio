@@ -1,0 +1,54 @@
+# Python caches & artifacts
+__pycache__/
+*.py[oc]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build outputs
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Virtual environments (uv / venv)
+.venv/
+venv/
+env/
+.python-version
+
+# uv specific
+uv.lock
+
+# Streamlit artifacts
+.streamlit/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Editors & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+
+# Database files (if you add SQLite later)
+*.db
+*.sqlite
+*.sqlite3

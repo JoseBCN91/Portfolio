@@ -1,0 +1,28 @@
+[project]
+name = "finance-stationality"
+version = "0.1.0"
+description = "Financial seasonality analysis dashboard with monthly patterns, correlations, and performance metrics"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+authors = [{ name = "Josep", email = "" }]
+dependencies = [
+    "numpy==1.26.4",
+    "pandas>=2.2.2",
+    "yfinance>=0.2.40",
+    "matplotlib>=3.8.4",
+    "plotly",
+    "streamlit",
+    "scipy",
+    "pytest>=7.0"
+]
+
+[project.urls]
+homepage = ""
+repository = ""
+
+# Optional dev extras (usable with `uv pip install .[dev]` or `uv add -e .[dev]`)
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.3.0",
+]
