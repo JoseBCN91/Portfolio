@@ -21,8 +21,6 @@ venv/
 env/
 .python-version
 
-# uv specific
-uv.lock
 
 # Streamlit artifacts
 .streamlit/
