@@ -4,6 +4,8 @@
 
 A professional-grade Streamlit dashboard for analyzing monthly seasonality patterns, momentum trends, win rates, statistical distributions, correlations, and comparative performance across financial markets. Built with modern Python practices and optimized for speed with intelligent caching.
 
+**Live Demo:** https://marketseasonalityanalytics.streamlit.app
+
 ---
 
 ## 🎯 Key Features
