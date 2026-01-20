@@ -3,7 +3,7 @@ import streamlit as st
 def apply_style():
     """Apply page configuration and CSS styling."""
     st.set_page_config(
-        page_title="Monthly Patterns Analysis | BQuant",
+        page_title="Market Seasonality Analytics | BQuant",
         page_icon="📈",
         layout="wide",
         initial_sidebar_state="expanded"
@@ -32,13 +32,13 @@ def apply_style():
         line-height: 1.1;
         font-weight:800;
         letter-spacing: 0.02em;
-        background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 60%, #A6FFEA 100%);
+        background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 50%, #06B6D4 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align:center;
         margin: 0.25rem auto 0.5rem auto;
         padding: 0.25rem 0;
-        text-shadow: 0 2px 18px rgba(78, 205, 196, 0.18);
+        text-shadow: 0 2px 18px rgba(59, 130, 246, 0.25);
         display: inline-block;
         width: 100%;
     }
@@ -49,9 +49,9 @@ def apply_style():
         width: 96px;
         height: 3px;
         margin: 10px auto 0 auto;
-        background: linear-gradient(90deg, rgba(46,134,171,0.0) 0%, var(--accent) 50%, rgba(46,134,171,0.0) 100%);
+        background: linear-gradient(90deg, rgba(59,130,246,0.0) 0%, #3B82F6 50%, rgba(59,130,246,0.0) 100%);
         border-radius: 999px;
-        filter: drop-shadow(0 2px 8px rgba(78,205,196,0.35));
+        filter: drop-shadow(0 2px 8px rgba(59,130,246,0.45));
     }
 
     .sub-header{

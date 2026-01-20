@@ -100,8 +100,6 @@ def _validate_input_data(weekly_returns: Dict, momentum: Dict, win_rates: Dict) 
     return has_data
 
 
-# moved to helpers.chart_style: update_common_axes_styling
-
 
 def create_monthly_chart(
     month_num: int,
@@ -308,7 +306,7 @@ def create_correlation_heatmap(corr_matrix: 'pd.DataFrame') -> go.Figure:
     ))
     
     fig.update_layout(
-        title="📊 Correlation Matrix (Daily Returns)",
+        title="Correlation Matrix (Daily Returns)",
         height=400 + len(corr_matrix) * 30,
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',
@@ -354,7 +352,7 @@ def create_relative_performance_chart(cumulative_returns: 'pd.DataFrame') -> go.
         ))
     
     fig.update_layout(
-        title="📈 Cumulative Returns Comparison",
+        title="Cumulative Returns Comparison",
         height=CHART_HEIGHT,
         plot_bgcolor='rgba(0,0,0,0)',
         paper_bgcolor='rgba(0,0,0,0)',

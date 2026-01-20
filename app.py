@@ -59,8 +59,8 @@ apply_style()
 # ============================================================================
 # Page Header
 # ============================================================================
-st.markdown('<h1 class="main-header">📈 Financial Analysis Dashboard</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Analyze monthly patterns, momentum trends, correlations, and performance metrics</p>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">📊 Market Seasonality Analytics</h1>', unsafe_allow_html=True)
+st.markdown('<p class="sub-header">Advanced market seasonality analysis with pattern recognition, statistical modeling, and cross-asset correlation</p>', unsafe_allow_html=True)
 
 # ============================================================================
 # Sidebar Configuration
@@ -145,9 +145,9 @@ def build_overview_summary(all_analysis: dict, data: pd.DataFrame) -> pd.DataFra
         summary_data.append({
             'Month': calendar.month_name[month_num],
             'Monthly Return': monthly_avg,
-            'Median_Return': median_ret,
+            'Median Return': median_ret,
             'Volatility': vol,
-            'Positive_Years': positive_years,
+            'Positive Years': positive_years,
             'Avg Momentum': avg_momentum * 100,
             'Win Rate': avg_win_rate,
             'Years': years_count
@@ -594,10 +594,10 @@ def render_multi_ticker_analysis():
                 cards = []
                 for ticker, metric_dict in sorted(stats.items()):
                     cards.append({
-                        'value': f"{metric_dict['annualized_return']:.2f}%",
+                        'value': f"{metric_dict['Annualized Return']:.2f}%",
                         'label': ticker,
-                        'subtext': f"Vol: {metric_dict['volatility']:.1f}% | Sharpe: {metric_dict['sharpe']:.2f}",
-                        'color': COLOR_POSITIVE if metric_dict['annualized_return'] > 0 else COLOR_NEGATIVE
+                        'subtext': f"Vol: {metric_dict['Volatility']:.1f}% | Sharpe: {metric_dict['Sharpe']:.2f}",
+                        'color': COLOR_POSITIVE if metric_dict['Annualized Return'] > 0 else COLOR_NEGATIVE
                     })
                 
                 # Display in rows of 3
@@ -638,7 +638,7 @@ def render_overview_tab(all_analysis: dict, show_stats: bool, ticker: str, data:
         # Overview charts
         fig_returns = px.bar(
             summary_df, x='Month', y='Monthly Return',
-            title='💹 Average Monthly Returns (%)',
+            title='Average Monthly Returns (%)',
             color='Monthly Return',
             color_continuous_scale='RdYlGn',
             text='Monthly Return'
@@ -649,7 +649,7 @@ def render_overview_tab(all_analysis: dict, show_stats: bool, ticker: str, data:
         
         fig_win_rates = px.bar(
             summary_df, x='Month', y='Win Rate',
-            title='🎯 Average Win Rates (%)',
+            title='Average Win Rates (%)',
             color='Win Rate',
             color_continuous_scale='RdYlGn',
             text='Win Rate'

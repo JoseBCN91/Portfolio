@@ -135,10 +135,10 @@ def calculate_statistics(data: pd.DataFrame) -> Dict[str, Dict[str, float]]:
         max_dd = drawdown.min() * 100
         
         stats[ticker] = {
-            'annualized_return': annual_return,
-            'volatility': volatility,
-            'sharpe': sharpe,
-            'max_drawdown': max_dd
+            'Annualized Return': annual_return,
+            'Volatility': volatility,
+            'Sharpe': sharpe,
+            'Max Drawdown': max_dd
         }
     
     logger.info(f"Calculated statistics for {len(stats)} tickers")

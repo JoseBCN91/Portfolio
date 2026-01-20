@@ -12,7 +12,7 @@ class FakeProvider:
         rng = pd.date_range(start="2024-01-01", periods=30, freq="B")
         prices = 100 + np.cumsum(np.random.randn(len(rng)) * 0.5)
         df = pd.DataFrame({"Close": prices}, index=rng)
-        # Include Volume optionally
+        # Include Volume 
         df["Volume"] = 1000
         return df
 
