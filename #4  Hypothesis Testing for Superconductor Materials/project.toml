@@ -1,0 +1,15 @@
+[project]
+name = "superconductor-analysis"
+version = "0.1.0"
+description = "Superconductor materials analysis and hypothesis testing"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.4.3",
+    "numpy>=1.21.0",
+    "pandas>=1.3.3",
+    "pingouin>=0.3.11",
+    "scipy>=1.7.1",
+    "seaborn>=0.11.2",
+    "statsmodels>=0.12.2",
+    "streamlit>=1.0.0",
+]

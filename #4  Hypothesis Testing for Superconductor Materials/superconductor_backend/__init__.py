@@ -1,0 +1,63 @@
+"""Backend utilities for superconducting materials analysis."""
+
+from .data import (
+    CRITICAL_TEMP_THRESHOLD,
+    DATA_DIR,
+    FORMULA_FILE,
+    TRAIN_FILE,
+    load_raw_data,
+    preprocess_data,
+    split_temperature_buckets,
+    select_families,
+)
+from .analysis import (
+    describe_distribution,
+    normality_pvalue,
+    mann_whitney,
+    mann_whitney_detailed,
+    pearson_corr,
+    spearman_corr,
+    kendall_corr,
+    kruskal_pvalue,
+    dunn_matrix,
+    prepare_clustering_data,
+    find_optimal_clusters,
+    perform_kmeans_clustering,
+    perform_clustering,
+    reduce_to_2d,
+)
+from .plots import (
+    histogram_plot,
+    box_violin,
+    scatter_affinity,
+    elements_distribution,
+    density_plot,
+    properties_heatmap,
+    correlations_with_temp,
+    plot_elbow_curve,
+    plot_silhouette_scores,
+    plot_clusters_2d,
+    plot_cluster_characteristics,
+)
+
+__all__ = [
+    "CRITICAL_TEMP_THRESHOLD",
+    "DATA_DIR",
+    "FORMULA_FILE",
+    "TRAIN_FILE",
+    "load_raw_data",
+    "preprocess_data",
+    "split_temperature_buckets",
+    "select_families",
+    "describe_distribution",
+    "normality_pvalue",
+    "mann_whitney",
+    "spearman_corr",
+    "kruskal_pvalue",
+    "dunn_matrix",
+    "histogram_plot",
+    "box_violin",
+    "scatter_affinity",
+    "elements_distribution",
+    "density_plot",
+]
